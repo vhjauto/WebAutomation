@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 247.314 s <<< FAILURE! - in TestSuite
+setUpClass(Runner.FaiedScenariosRunner)  Time elapsed: 0.832 s  <<< FAILURE!
+io.cucumber.core.exception.CucumberException: Failed to parse 'target\failedrerun.txt'
+Caused by: java.nio.file.NoSuchFileException: target\failedrerun.txt
+
+runScenario(Runner.TestRunner)  Time elapsed: 77.612 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'CREDIT/DEBIT CARD NUMBER')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vinod-lp\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50753/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edcc79ce0d3d69b0460a93bade852434
+

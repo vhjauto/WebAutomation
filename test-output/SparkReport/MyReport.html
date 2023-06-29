@@ -1,0 +1,899 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Vinod - Cucumber Framework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Vinod - Liquid Core Web Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 26, 2023 10:09:10 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@UnitTest1</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis</p>
+            <p class="text-sm">
+              <span>10:09:12 PM</span> / <span>00:03:46:712</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis</h5>
+<span class='badge badge-success'>06.26.2023 10:09:12 PM</span>
+<span class='badge badge-danger'>06.26.2023 10:12:58 PM</span>
+<span class='badge badge-default'>00:03:46:712</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Validate the Speciality for Manual Entry payment in Gateway "<Gateway>"</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Validate the Speciality for Manual Entry payment in Gateway "Heartland"</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User navigate to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is logged in to Lp Portal for Gateway "Heartland"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User is on Manual Entry Payment page</span>
+      <div>SCREENSHOT:- selectPaymentType
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded1.png' src="test-output/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User select the date of visit</span>
+      <div>SCREENSHOT:- User_select_the_date_of_visit
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded2.png' src="test-output/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters the patient reference number</span>
+      <div>Entered the Reference Number:1687797598412
+      </div>
+      <div>SCREENSHOT:- User_Enters_the_patient_reference_number
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded3.png' src="test-output/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the Patient Name "Vinod" & "Jadhav"</span>
+      <div>Entered the Patient FirstName Vinod
+      </div>
+      <div>SCREENSHOT:- user_enter_the_patient_name
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded4.png' src="test-output/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>Entered the Patient LastName Jadhav
+      </div>
+      <div>SCREENSHOT:- user_enter_the_patient_name
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded5.png' src="test-output/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Phone Number "9548406651"</span>
+      <div>Entered the phone/email: 9548406651
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the speciality in Manual Entry page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Amount "1"</span>
+      <div>Entered the amount: 1
+      </div>
+      <div>SCREENSHOT:- user_enters_the_amount
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded6.png' src="test-output/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on Submit button</span>
+      <div>SCREENSHOT:- submitButton
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded7.png' src="test-output/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>Submit Button clicked
+      </div>
+      <div>SCREENSHOT:- user_click_on_submit_button
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded8.png' src="test-output/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should redirect to Collect Card Payment form</span>
+      <div>SCREENSHOT:- collectCardDetailsForm
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded9.png' src="test-output/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>Card Information is displaying
+      </div>
+      <div>SCREENSHOT:- user_should_redirect_to_collect_card_payment_form
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded10.png' src="test-output/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters card number card type as "Visa" in Gateway "Heartland"</span>
+      <div>Card Number has entered successfully 4242424242424242
+      </div>
+      <div>SCREENSHOT:- user_enters_card_number_card_type_as_in_gateway
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded11.png' src="test-output/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters ExpiryMonth "02" & ExpiryYear "2026"</span>
+      <div>Expiry Month & Year has entered successfully
+      </div>
+      <div>SCREENSHOT:- user_enters_expiry_month_expiry_year
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded12.png' src="test-output/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Cvv for card type "Visa"</span>
+      <div>Cvv has entered successfully
+      </div>
+      <div>SCREENSHOT:- user_enters_the_cvv_for_card_type
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded13.png' src="test-output/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters ZipCode "12345"</span>
+      <div>Zip code entered successfully
+      </div>
+      <div>SCREENSHOT:- user_enters_zip_code
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded14.png' src="test-output/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Address, State & City</span>
+      <div>Address entered 5645 Coral Ridge Drive Suite 458 Coral Springs USA
+      </div>
+      <div>State entered Florida
+      </div>
+      <div>City entered Fort Lauderdale
+      </div>
+      <div>SCREENSHOT:- User_enters_the_Address_State_City
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded15.png' src="test-output/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User submit the Collect Card form</span>
+      <div>SCREENSHOT:- submitCardDetailsForm
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded16.png' src="test-output/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>Card Information submitted successfully
+      </div>
+      <div>SCREENSHOT:- user_submit_the_collect_card_form
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded17.png' src="test-output/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see payment successfull message</span>
+      <div>Manual Entry payment displayed successfully
+      </div>
+      <div>SCREENSHOT:- user_should_see_payment_successfull_message
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded18.png' src="test-output/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User navigate to Transaction Search Page for ME</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User check the Speciality check box and run the report for ME</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User should see transaction in Transaction Report with Speciality for ManualEntry</span>
+      <div>Transaction record is displayed in Transaction Report
+      </div>
+      <div>SCREENSHOT:- user_should_see_transaction_in_transaction_report_with_speciality_for_manual_entry
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded19.png' src="test-output/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="28"><span class="badge log fail-bg mr-2">Fail</span>Validate the Speciality for Manual Entry payment in Gateway "Tsys"</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User navigate to the login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given User is logged in to Lp Portal for Gateway "Tsys"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User is on Manual Entry Payment page</span>
+      <div>SCREENSHOT:- selectPaymentType
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded20.png' src="test-output/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User select the date of visit</span>
+      <div>SCREENSHOT:- User_select_the_date_of_visit
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded21.png' src="test-output/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enters the patient reference number</span>
+      <div>Entered the Reference Number:1687797732325
+      </div>
+      <div>SCREENSHOT:- User_Enters_the_patient_reference_number
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded22.png' src="test-output/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the Patient Name "Saidulu" & "QA"</span>
+      <div>Entered the Patient FirstName Saidulu
+      </div>
+      <div>SCREENSHOT:- user_enter_the_patient_name
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded23.png' src="test-output/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>Entered the Patient LastName QA
+      </div>
+      <div>SCREENSHOT:- user_enter_the_patient_name
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded24.png' src="test-output/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Phone Number "9548406651"</span>
+      <div>Entered the phone/email: 9548406651
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the speciality in Manual Entry page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the Amount "3"</span>
+      <div>Entered the amount: 3
+      </div>
+      <div>SCREENSHOT:- user_enters_the_amount
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded25.png' src="test-output/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on Submit button</span>
+      <div>SCREENSHOT:- submitButton
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded26.png' src="test-output/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>Submit Button clicked
+      </div>
+      <div>SCREENSHOT:- user_click_on_submit_button
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded27.png' src="test-output/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User should redirect to Collect Card Payment form</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'CREDIT/DEBIT CARD NUMBER')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vinod-lp\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50753}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50753/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: edcc79ce0d3d69b0460a93bade852434
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at Pages.ManualEntryPage.collectCardDetailsForm(ManualEntryPage.java:153)
+	at stepDefinitions.ManualEntryStepDef.user_should_redirect_to_collect_card_payment_form(ManualEntryStepDef.java:98)
+	at ?.User should redirect to Collect Card Payment form(file:///D:/Vinod/RestAPIAutomation/LiquidCoreWebAutomation/src/test/resources/features/ManualEntry.feature:118)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When User enters card number card type as "Amex" in Gateway "Tsys"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters ExpiryMonth "12" & ExpiryYear "2025"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters the Cvv for card type "Amex"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters ZipCode "12345"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User enters the Address, State & City</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User submit the Collect Card form</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should see payment successfull message</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User navigate to Transaction Search Page for ME</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And User check the Speciality check box and run the report for ME</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then User should see transaction in Transaction Report with Speciality for ManualEntry</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>stepDefinitions.Hooks.takeScraenshotOnFailureOrSuccess()</span>
+      <div>Validate the Speciality for Manual Entry payment in Gateway "Tsys"
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='test-output/embedded28.png' src="test-output/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:12:24 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='40'>Then User should redirect to Collect Card Payment form</a>
+<div class="">
+<span class="badge badge-default">This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis.Validate the Speciality for Manual Entry payment in Gateway "Tsys".Then User should redirect to Collect Card Payment form</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@UnitTest1</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@UnitTest1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>22:09:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Validate the Speciality for Manual Entry payment in Gateway "Heartland"</a>
+<div class="">
+<span class="badge badge-default">This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis.Validate the Speciality for Manual Entry payment in Gateway "Heartland"</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>22:11:41 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Validate the Speciality for Manual Entry payment in Gateway "Tsys"</a>
+<div class="">
+<span class="badge badge-default">This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis.Validate the Speciality for Manual Entry payment in Gateway "Tsys"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 26, 2023 10:09:10 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 26, 2023 10:12:58 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='50%'><b>1</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='74%'><b>32</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>1</b> steps failed,
+<b>10</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"This is feature file to test Manual Entry for all the gateways : Heartland,Elavon,Rapid,Tsys ,Card Pointe ,Stripe & Fortis":226.712
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@UnitTest1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>Aut</td>
+</tr>
+<tr>
+<td>user</td>
+<td>vinod</td>
+</tr>
+<tr>
+<td>os</td>
+<td>windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 1,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 32,
+failGrandChild: 1,
+warningGrandChild: 0,
+skipGrandChild: 10,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

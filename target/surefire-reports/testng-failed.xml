@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="8" parallel="methods" name="Failed suite [Liquid core web automation]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="8" parallel="methods" name="Liquid core web automation(failed)" verbose="0">
+    <classes>
+      <class name="Runner.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.TestRunner -->
+    </classes>
+  </test> <!-- Liquid core web automation(failed) -->
+</suite> <!-- Failed suite [Liquid core web automation] -->

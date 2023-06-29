@@ -1,0 +1,9 @@
+stepDefinitions\ContactlessPaymentStepDef.class
+stepDefinitions\LoginStepDef.class
+Runner\FaiedScenariosRunner.class
+Runner\TestRunner.class
+stepDefinitions\InsurancePaymentStepDef.class
+stepDefinitions\Hooks.class
+stepDefinitions\CardonFileStepDef.class
+stepDefinitions\ManualEntryStepDef.class
+stepDefinitions\TransactionReportStepDef.class
