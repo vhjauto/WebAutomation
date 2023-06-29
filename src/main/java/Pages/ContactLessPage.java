@@ -131,6 +131,9 @@ public class ContactLessPage extends BaseClass {
 		driver.findElement(SubmitFormbtn).click();
 
 	}
+	public void test() {
+		
+	}
 
 
 }
